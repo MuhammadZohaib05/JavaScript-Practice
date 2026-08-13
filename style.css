@@ -1,0 +1,19 @@
+h1{
+    color: blue;    
+    background-color: white;
+}
+body{
+    background-color: rgb(152, 109, 195);
+}
+button{
+    background-color: rgb(29, 24, 168);
+    color: azure;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+}
