@@ -37,3 +37,20 @@ button{
     height: 100px;;
     width: 100px;
 }
+#eventpara{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
