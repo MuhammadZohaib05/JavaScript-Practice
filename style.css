@@ -16,4 +16,24 @@ button{
     margin: 5px;
     text-align: center;
     background-color: aqua;
+} 
+#box{
+    height: 250px;
+    width: 100px;
+    margin: 5px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    color: white;
+}
+.para{
+    color: rgb(0, 247, 45);
+    background-color: blue;
+    height: 60px;
+    width: 80px;
+}
+.newClass{
+    color: aqua;
+    background-color: darkred;
+    height: 100px;;
+    width: 100px;
 }
