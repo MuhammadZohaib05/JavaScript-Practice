@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="display" placeholder="Enter Digits">
+        <h1 id="cal">Calculator</h1>
+
+        <div class="buttons">
+
+            <button onclick="clearDisplay()">Clear</button>
+            <button onclick="deleteLast()">DEL</button>
+            <button onclick="appendvalue('%')">%</button>
+            <button onclick="appendvalue('/')">/</button>
+            <button onclick="appendvalue('7')">7</button>
+            <button onclick="appendvalue('8')">8</button>
+            <button onclick="appendvalue('9')">9</button>
+            <button onclick="appendvalue('*')">*</button>
+            <button onclick="appendvalue('4')">4</button>
+            <button onclick="appendvalue('5')">5</button>
+            <button onclick="appendvalue('6')">6</button>
+            <button onclick="appendvalue('-')">-</button>
+            <button onclick="appendvalue('1')">1</button>
+            <button onclick="appendvalue('2')">2</button>
+            <button onclick="appendvalue('3')">3</button>
+            <button onclick="appendvalue('+')">+</button>
+            <button onclick="appendvalue('0')">0</button>
+            <button onclick="appendvalue('.')">.</button>
+
+            <button onclick="calculate()" class="equal">=</button>
+
+        </div>
+    </div>
+
+    <script src="Calculator.js"></script>
+</body>
+</html>
