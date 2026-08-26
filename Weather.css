@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+}
+.container {
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+#heading {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.City-Search{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.City-Search input {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+.City-Search button{
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.City-Search button:hover {
+    background-color: #555;
+}
+#message {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.location h2 {
+    font-size: 28px;
+    color: #333;
+}
+.location p {
+    color: #777;
+    margin-top: 5px;
+}
+#img {
+    width: 100px;
+    height: 100px;
+    margin: 15px 0;
+}
+#temperature {
+    font-size: 50px;
+    color: #222;
+    margin-bottom: 5px;
+}
+#condition {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 25px;
+}
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.detail {
+    flex: 1;
+    padding: 15px 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+.detail span {
+    font-size: 25px;
+}
+.detail p {
+    font-size: 14px;
+    color: #666;
+    margin: 7px 0;
+}
+.detail strong {
+    font-size: 15px;
+    color: #222;
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+    .City-Search {
+        flex-direction: column;
+    }
+    .City-Search button {
+        width: 100%;
+    }
+    .weather-details {
+        flex-direction: column;
+    }
+
+}

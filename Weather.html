@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="City-Search">   
+            <h1 id="heading">Weather Forecast</h1>
+            <input id="cityInput" type="text" placeholder="Enter City Name"><br><br>
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <p id="message"></p>
+
+        <div id="weatherCard" class="weather-card">
+            <div class="location">
+              <h2 id="cityName">Lahore</h2>
+              <p id="country">Pakistan</p>
+            </div>
+
+            <img id="img" src="" alt="Weather Icon">
+            <h2 id="temperature">--°C</h2>
+            <p id="condition">Weather Condition</p>
+            <div class="weather-details">
+
+                <div class="detail">
+                    <span>💧</span>
+                    <p>Humidity</p>
+                    <strong id="humidity">--%</strong>
+                </div>
+                <div class="detail">
+                    <span>💨</span>
+                    <p>Wind</p>
+                    <strong id="wind">-- km/h</strong>
+                </div>
+                <div class="detail">
+                    <span>🌡️</span>
+                    <p>Feels Like</p>
+                    <strong id="feelsLike">--°C</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Weather.js"></script>
+</body>
+</html>
